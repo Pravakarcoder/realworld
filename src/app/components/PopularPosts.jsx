@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -164,7 +165,7 @@ const PopularPosts = () => {
                   className="c-card block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden"
                 >
                   <div className="relative pb-48 overflow-hidden">
-                    <img
+                    <Image
                       className="absolute inset-0 h-full w-full object-cover"
                       src={popularposts.Img}
                       alt=""

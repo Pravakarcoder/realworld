@@ -8,6 +8,7 @@ import { TfiEmail } from "react-icons/tfi";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Image from "next/image";
 
 const Test = () => {
   useEffect(() => {
@@ -23,7 +24,7 @@ const Test = () => {
         <div className="w-full xl:w-full p-0">
           <div className="block bg-white shadow-md hover:shadow-xl rounded-lg overflow-hidden cursor-pointer">
             <div className="relative pb-48 overflow-hidden transition duration-300 ease-in-out hover:scale-105 h-72">
-              <img
+              <Image
                 className="absolute inset-0 h-full w-full object-cover"
                 src="https://images.unsplash.com/photo-1475855581690-80accde3ae2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
                 alt=""
@@ -34,7 +35,7 @@ const Test = () => {
               className="w-32 h-32 ml-5 relative -mt-10 rounded-full overflow-hidden bg-gray-200"
               data-aos="zoom-in"
             >
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1475855581690-80accde3ae2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
                 alt="Profile Image"
                 className="w-full h-full object-cover object-center"

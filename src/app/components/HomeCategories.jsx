@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -93,7 +94,7 @@ const HomeCategories = () => {
               className="w-32 bg-transparent rounded overflow-hidden shadow-lg mt-4   mb-4 hover:-translate-y-[3px] duration-300"
               key={index}
             >
-              <img
+              <Image
                 className="w-full p-3"
                 src={categorie.img}
                 alt="Card Image"
