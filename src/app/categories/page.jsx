@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Loading from "../components/Loading";
+import Image from "next/image";
 
 {
   /* <div className="w-32 rounded overflow-hidden shadow-lg mt-4  ml-4  mb-4 hover:-translate-y-1 duration-300 cursor-pointer">
@@ -189,7 +190,7 @@ const page = () => {
               className="w-32  rounded overflow-hidden shadow-lg mt-4   mb-4 hover:-translate-y-[3px] duration-300"
               key={index}
             >
-              <img
+              <Image
                 className="w-full p-3"
                 src={categorie.img}
                 alt="Card Image"
