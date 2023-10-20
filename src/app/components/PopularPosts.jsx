@@ -169,6 +169,8 @@ const PopularPosts = () => {
                       className="absolute inset-0 h-full w-full object-cover"
                       src={popularposts.Img}
                       alt=""
+                      width={1000}
+                      height={100}
                     />
                   </div>
                   <div className="p-4">

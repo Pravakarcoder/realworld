@@ -98,6 +98,8 @@ const HomeCategories = () => {
                 className="w-full p-3"
                 src={categorie.img}
                 alt="Card Image"
+                width={1000}
+                height={100}
               />
               <div className="">
                 <p className="text-gray-700 text-sm text-center">

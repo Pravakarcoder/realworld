@@ -1,4 +1,5 @@
 import React from "react";
+import Loading from "../components/Loading";
 
 const page = () => {
   return (
@@ -8,6 +9,9 @@ const page = () => {
     "
     >
       Coming soon
+      <div className="ml-10">
+        <Loading />
+      </div>
     </div>
   );
 };

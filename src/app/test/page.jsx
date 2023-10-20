@@ -28,6 +28,8 @@ const Test = () => {
                 className="absolute inset-0 h-full w-full object-cover"
                 src="https://images.unsplash.com/photo-1475855581690-80accde3ae2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
                 alt=""
+                width={1000}
+                height={100}
               />
             </div>
 
@@ -39,6 +41,8 @@ const Test = () => {
                 src="https://images.unsplash.com/photo-1475855581690-80accde3ae2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
                 alt="Profile Image"
                 className="w-full h-full object-cover object-center"
+                width={1000}
+                height={100}
               />
             </div>
 
